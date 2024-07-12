@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    background-color: #555;
+    border-radius: 4px;
+}
+
+
+nav a:hover {
+    background-color: #777;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.subject-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject-buttons button {
+    margin: 1em;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+.subject-buttons button:hover {
+    background-color: #555;
+}
+
+.chapter-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chapter-list li {
+    margin: 1em 0;
+}
+
+.chapter-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    background-color: #ddd;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+.chapter-list a:hover {
+    background-color: #bbb;
+}
+
+article {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+article section {
+    margin-bottom: 1.5em;
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
